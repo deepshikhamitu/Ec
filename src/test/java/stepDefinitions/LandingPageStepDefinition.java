@@ -50,6 +50,7 @@ public class LandingPageStepDefinition {
 		
 		landingPage.incrementQuantity(Integer.parseInt(quantity));
 		landingPage.addToCart();
+		System.out.print("GIT");
 	}
 
 	
